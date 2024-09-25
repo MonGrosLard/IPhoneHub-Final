@@ -82,10 +82,12 @@ img {
     width: 400px;
     transition: 0.3s;
     border-radius: 20px;
+    filter: grayscale(100%);
 }
 
 img:hover {
     width: 500px;
+    filter: grayscale(0%);
 }
 
 .header-title a {
